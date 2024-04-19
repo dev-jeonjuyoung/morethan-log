@@ -13,13 +13,13 @@ const CONFIG = {
   projects: [
     {
       name: `달려동물`,
-      href: "https://github.com/morethanmin/morethan-log",
+      href: "https://github.com/dev-jeonjuyoung/DALDONG",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "flynn-log",
+    description: "welcome to flynn-log!",
   },
 
   // CONFIG configration (required)
@@ -47,7 +47,7 @@ const CONFIG = {
     },
   },
   naverSearchAdvisor: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
     },
