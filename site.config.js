@@ -53,7 +53,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
@@ -63,7 +63,7 @@ const CONFIG = {
   cusdis: {
     enable: true,
     config: {
-      host: "https://flynnn.site",
+      host: "https://cusdis.com",
       appid: "99f5ea21-17b8-4271-b474-15205112293a", // Embed Code -> data-app-id value
     },
   },
