@@ -63,7 +63,7 @@ const CONFIG = {
   cusdis: {
     enable: true,
     config: {
-      host: "https://cusdis.com",
+      host: "https://flynnn.site",
       appid: "99f5ea21-17b8-4271-b474-15205112293a", // Embed Code -> data-app-id value
     },
   },
